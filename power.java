@@ -20,12 +20,12 @@ class Ideone
 		if(n==0){
 			return 1;
 		}
-		int temp = Pow(x, n/2);
+		int val = Pow(x, n/2);
 		if(n%2 == 0){
-			return temp*temp;
+			return val*val;
 		}
 		else{
-			return x*temp*temp;
+			return x*val*val;
 		}
 	}
 }
